@@ -14,6 +14,8 @@ public class Question25 {
                 }
             }
         }
+
+        // Output result
         System.out.print("Next Greater Elements: ");
         for (int val : result) {
             System.out.print(val + " ");
