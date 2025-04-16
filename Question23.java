@@ -12,8 +12,9 @@ public class Question23 {
         }
         return max;
     }
+
     public static void main(String[] args) {
         int[] nums = {3, 10, 5, 25, 2, 8};
-        System.out.println("Maximum XOR: " + findMaximumXOR(nums));
+        System.out.println("Maximum XOR: " + findMaximumXOR(nums)); // Output: 28
     }
 }
